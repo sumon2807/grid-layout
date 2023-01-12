@@ -6,6 +6,7 @@
     background: #0a0a0a;
 }
 /* Common css end */
+/* 1st grid layout start */
 .container{
     border: 2px solid;
     border-color: green;
@@ -38,6 +39,7 @@
     font-size: 30px;
 }
 /* 1st grid layout end */
+/* 2nd grid layout start */
 .second-container{
     display: grid;
     grid-template-columns: 150px 1040px repeat(1, 1fr) ;
@@ -71,3 +73,4 @@ nav li{
 nav li a{
     text-decoration: none;
 }
+/* 2nd grid layout start */
